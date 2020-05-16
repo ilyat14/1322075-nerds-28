@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Илья](https://up.htmlacademy.ru/htmlcss/28/user/1322075).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Байдаров](https://up.htmlacademy.ru/htmlcss/28/user/7956).
 
 ---
 

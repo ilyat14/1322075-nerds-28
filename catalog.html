@@ -20,109 +20,122 @@
       </nav>
     </header>
     <main>
-      <h1>Магазин готовых шаблонов</h1>
-      <section>
-        <div>
-          <label for="dayscount"><h2>Стоимость:</h2></label>
-         от 0 <input type="range" id="dayscount" name="dayscount" min="0" max="2000" step="1"> до 20000
-        </div>
-        <h2>Сортировать:</h2>
-        <a href="">По цене</a>
-        <a href="">По типу</a>
-        <a href="">По названию</a>
-        <a href="">dw</a>
-        <a href="">up</a>
-      </section>
-      <section>
-        <h2>Сетка:</h2>
-        <ul>
-          <li>Адаптивная</li>
-          <li>Фиксировання</li>
-          <li>Резиновая</li>
-        </ul>
-        <h2>Особенности:</h2>
-        <ul>
-          <li>Слайдер</li>
-          <li>Блок преимуществ</li>
-          <li>Новости</li>
-          <li>Галерея</li>
-          <li>Корзина</li>
-        </ul>
-        <button>Показать</button>
-      </section>
-      <section>
-        <h2>Шаблоны</h2>
-        <div>
-          <a href="">
-            <img src="img/browser.svg" alt="sedona" />
-            <img src="img/img-sedona.jpg" alt="sedona" />
-          </a>
-          <h2>Sedona</h2>
-          <p>Информационный сайт для туристов</p>
-          <a href="">9900</a>
-        </div>
-        <div>
-          <a href="">
-            <img src="img/browser.svg" alt="pink app" />
-            <img src="img/img-pink.jpg" alt="pink app" />
-          </a>
-          <h2>Pink</h2>
-          <p>Продуктовый лендинг приложения для iOS и Android</p>
-          <button>9900</button>
-        </div>
-        <div>
-          <a href="">
-            <img src="img/browser.svg" alt="barbershop" />
-            <img src="img/img-barbershop.jpg" alt="barbershop" />
-          </a>
-          <h2>Barbershop</h2>
-          <p>ОСайт салона красоты. Для мужчин, да.</p>
-          <a href="">9900</a>
-        </div>
-        <div>
-          <a href="">
-            <img src="img/browser.svg" alt="mishka" />
-            <img src="img/img-mishka.jpg" alt="mishka" />
-          </a>
-          <h2>Mishka</h2>
-          <p>Интернет-магазин вязанных игрушек</p>
-          <a href="">9900</a>
-        </div>
-        <div>
-          <a href="">
-            <img src="img/browser.svg" alt="A plus" />
-            <img src="img/img-aplus.jpg" alt="A plus" />
-          </a>
-          <h2>Aplus</h2>
-          <p>Лендинг курсов повышения квалификации</p>
-          <a href="">9900</a>
-        </div>
-        <div>
-          <a href="">
-            <img src="img/browser.svg" alt="kvast" />
-            <img src="img/img-kvast.jpg" alt="kvast" />
-          </a>
-          <h2>Kvast</h2>
-          <p>Описание шаблона</p>
-          <a href="">9900</a>
-        </div>
-        <a href="">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="">Следующая</a>
-      </section>
-      <section>
-        <!-- Здесь будет карта -->
-        <h2>Как до нас добраться</h2>
-        <aside>
-          <h3>NЁRDS DESIGN STUDIO</h3>
-          <p>
-            191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7 (812)
-            275-75-75
-          </p>
-          <a href="">Напишите нам</a>
-        </aside>
-      </section>
+      <form action="">
+        <h1>Магазин готовых шаблонов</h1>
+        <section>
+          <!-- <div>
+            <label for="cost"><h2>Стоимость:</h2></label>
+            от 0 <input type="range" id="cost" name="cost" min="0" max="2000" step="1"> до 20000
+          </div> -->
+          <h2>Сортировать:</h2>
+          <a href="">По цене</a>
+          <a href="">По типу</a>
+          <a href="">По названию</a>
+          <a href="">dw</a>
+          <a href="">up</a>
+        </section>
+        <section>
+          <h2>Сетка:</h2>
+          <ul>
+            <label>
+              <input name="setka" type="radio" value="Адаптивная" checked><li>Адаптивная</li>
+            </label>
+            <label>
+              <input name="setka" type="radio" value="Фиксировання"><li>Фиксировання</li>
+            </label>
+            <label>
+              <input name="setka" type="radio" value="Резиновая"><li>Резиновая</li>
+            </label>
+          </ul>
+          <h2>Особенности:</h2>
+          <ul>
+            <input name="slider" type="checkbox" id="slider"checked>
+              <label for="slider"><li>Слайдер</li></label>
+            <input name="benefits" type="checkbox" id="benefits">
+              <label for="benefits"><li>Блок преимуществ</li></label>
+            <input name="news" type="checkbox" id="news"checked>
+              <label for="news"><li>Новости</li></label>
+            <input name="gallery" type="checkbox" id="gallery">
+              <label for="gallery"><li>Галерея</li></label>
+            <input name="basket" type="checkbox" id="basket">
+              <label for="basket"><li>Корзина</li></label>
+          </ul>
+          <button>Показать</button>
+        </section>
+        <section>
+          <h2>Шаблоны</h2>
+          <div>
+            <a href="">
+              <img src="img/browser.svg" alt="sedona" />
+              <img src="img/img-sedona.jpg" alt="sedona" />
+            </a>
+            <h2>Sedona</h2>
+            <p>Информационный сайт для туристов</p>
+            <a href="">9900</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/browser.svg" alt="pink app" />
+              <img src="img/img-pink.jpg" alt="pink app" />
+            </a>
+            <h2>Pink</h2>
+            <p>Продуктовый лендинг приложения для iOS и Android</p>
+            <a href="">9900</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/browser.svg" alt="barbershop" />
+              <img src="img/img-barbershop.jpg" alt="barbershop" />
+            </a>
+            <h2>Barbershop</h2>
+            <p>ОСайт салона красоты. Для мужчин, да.</p>
+            <a href="">9900</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/browser.svg" alt="mishka" />
+              <img src="img/img-mishka.jpg" alt="mishka" />
+            </a>
+            <h2>Mishka</h2>
+            <p>Интернет-магазин вязанных игрушек</p>
+            <a href="">9900</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/browser.svg" alt="A plus" />
+              <img src="img/img-aplus.jpg" alt="A plus" />
+            </a>
+            <h2>Aplus</h2>
+            <p>Лендинг курсов повышения квалификации</p>
+            <a href="">9900</a>
+          </div>
+          <div>
+            <a href="">
+              <img src="img/browser.svg" alt="kvast" />
+              <img src="img/img-kvast.jpg" alt="kvast" />
+            </a>
+            <h2>Kvast</h2>
+            <p>Описание шаблона</p>
+            <a href="">9900</a>
+          </div>
+          <a href="">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="">Следующая</a>
+        </section>
+        <section>
+          <!-- Здесь будет карта -->
+          <h2>Как до нас добраться</h2>
+          <aside>
+            <h3>NЁRDS DESIGN STUDIO</h3>
+            <p>
+              191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7 (812)
+              275-75-75
+            </p>
+            <a href="">Напишите нам</a>
+          </aside>
+        </section>
+      </form>
     </main>
     <footer>
       <section>
